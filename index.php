@@ -11,9 +11,9 @@
             <label for="badwords">Inserisci la parola da censurare</label>
             <input type="text" name='badwords' id='badwords'>
             <button type="submit">Invia</button>
-            <p>
+            <textarea name="paragrafo" id="paragrafo" cols="30" rows="10">
                 Il povero uccellino non sapeva più a chi rivolgersi, ma continuò a saltellare… Lo vide un abete e gli chiese
-            </p>
+            </textarea>
         </form>
     </main>
 </body>
