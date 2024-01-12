@@ -13,5 +13,5 @@ $censura = $_GET['badwords'];
 ?>
 
 <p>
-    Il povero <?php echo str_replace('uccellino','***',$censura) ?> non sapeva più a chi rivolgersi, ma continuò a saltellare… Lo vide un abete e gli chiese
+    Il povero <?php echo str_replace('badwords','***',$censura) ?> non sapeva più a chi rivolgersi, ma continuò a saltellare… Lo vide un abete e gli chiese
 </p>
