@@ -4,7 +4,7 @@
 
 $censura = $_GET['badwords'];
 
-echo str_replace('uccellino','***',$censura);
+// echo str_replace('uccellino','***',$censura);
 
 
 // $testo="Oggi è un altro post non è un bel sito";
@@ -13,5 +13,5 @@ echo str_replace('uccellino','***',$censura);
 ?>
 
 <p>
-    Il povero <?php echo $censura; ?> non sapeva più a chi rivolgersi, ma continuò a saltellare… Lo vide un abete e gli chiese
+    Il povero <?php echo str_replace('uccellino','***',$censura) ?> non sapeva più a chi rivolgersi, ma continuò a saltellare… Lo vide un abete e gli chiese
 </p>
